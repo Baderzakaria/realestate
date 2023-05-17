@@ -43,7 +43,6 @@ z-index: The z-index property is used to control the stacking order of elements.
     border-radius: 5px;
     border: 3px solid rgba(120, 120, 120, 0.374);
     justify-content: space-between;
-    border-radius: 5px;
 }
 
 .search-bar>input {
