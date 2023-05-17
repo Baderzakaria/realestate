@@ -26,7 +26,7 @@ const Header = () => {
             <a href="">Residencies</a>
             <a href="">Our Values </a>
             <a href="">Contact us</a>
-            <a href="">Get started</a>
+            <a href="">Get Started</a>
             <button className="button">Contacts</button>
           </div>
         </OutsideClickHandler>
