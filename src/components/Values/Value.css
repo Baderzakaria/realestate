@@ -52,3 +52,17 @@
 .accordionButton .primaryText {
     font-size: 1.1rem;
 }
+
+@media (nax-width: 1024px) {
+    .v-container {
+        flex-direction: column;
+    }
+
+    @media (max-width:768) {
+        .accordionButton .primaryText {
+            font-size: 0.8px;
+        }
+
+    }
+
+}

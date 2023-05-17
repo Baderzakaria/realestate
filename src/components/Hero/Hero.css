@@ -2,6 +2,7 @@
     color: white;
     padding-bottom: 2rem;
     position: relative;
+    z-index: 1;
 
 }
 
@@ -20,7 +21,7 @@ z-index: The z-index property is used to control the stacking order of elements.
  */
 .hero-container {
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     /* background-color: var(--black); */
 }
 
@@ -96,4 +97,27 @@ z-index: The z-index property is used to control the stacking order of elements.
 .secondaryText {
     color: rgba(140, 140, 140, 0.9);
     font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+    .hero-container {
+        margin-top: 2rem;
+    }
+
+    .hero-title>h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .image-container {
+
+        width: 95%;
+        height: 25rem;
+    }
+
+    .stats {
+        justify-content: center;
+        gap: 1.5rem;
+
+    }
 }

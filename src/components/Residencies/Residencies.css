@@ -81,3 +81,13 @@
 .r-btn>:nth-child(2) {
     background-color: cornflowerblue;
 }
+
+@media (max-width: 648) {
+    .r-head {
+        align-items: center;
+    }
+
+    #r-buttons {
+        position: initial;
+    }
+}
