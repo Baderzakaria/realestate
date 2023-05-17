@@ -9,18 +9,14 @@ const Hero = () => {
       <div className="paddings flexCenter innerWidth hero-container ">
         {/*  the left side of the hero section */}
         <div className="flexColStart hero-left">
-          <div className="orange-circle" />
-          <motion.h1
-            initial={{ y: "2rem", opacaity: 0 }}
-            animate={{ y: "0rem", opacaity: 1 }}
-            transition={{ delay: 0.5, duration: 0.5, type: "spring" }}
-          >
+          <h1 className="hero-title">
+            <div className="orange-circle" />
             Discover
             <br />
             most suitable
             <br />
             <p>properety🏡</p>
-          </motion.h1>
+          </h1>
           <div className="flexColCenter hero-des">
             <span className="secondaryText">
               Find a variety of properties that suit you very easilty
