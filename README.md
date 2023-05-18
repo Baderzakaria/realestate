@@ -1,10 +1,11 @@
 
 # Homyz
+
 my first project in React 
 
 website UI for displaying images and basic infos about an imaginary realestate company
 
-## time of development : 30hours
+## time of development : 48hours
 
 
 ## Appendix
@@ -19,3 +20,7 @@ To deploy this project run
 ```bash
   npm run dev
 ```
+
+the website is successfully deployed to https://realestate-21a09.web.app/
+## successfully add firebase for content database 
+

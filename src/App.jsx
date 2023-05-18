@@ -6,6 +6,7 @@ import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Values/Value";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import "../firebase";
 // Import the functions you need from the SDKs you need
 /**
  * Renders the App component. This component is used to display hero and header in the header area of the game.
