@@ -1,5 +1,7 @@
 .c-container {
     justify-content: space-between;
+    display: flex;
+    flex-direction: row;
 }
 
 .c-container>div {
@@ -8,9 +10,11 @@
 
 .c-right {
     width: 100%;
+    /* width: 100%; */
 }
 
 .c-left {
+    margin: 1rem;
     gap: 1rem;
 }
 
@@ -68,9 +72,18 @@
     gap: 1.6rem;
 }
 
+/* .c-right {
+    justify-content: center;
+}
+
+.c-right>img {
+    justify-content: center;
+} */
+
 @media (max-width: 1024px) {
     .c-container {
         flex-direction: column;
+
     }
 
     .c-right {
@@ -79,10 +92,40 @@
 
     .contactModes {
         width: 100%;
+        /* justify-content: space-between; */
     }
 
     .row {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        /* flex-direction: column; */
         width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .c-container {
+        flex-direction: column;
+        display: contents;
+        align-items: center;
+    }
+
+    .c-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .c-right {
+        justify-content: center;
+    }
+
+    .contactModes {
+        flex-direction: column;
+    }
+
+    .row {
+        flex-direction: column-reverse;
     }
 }

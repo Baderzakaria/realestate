@@ -6,7 +6,7 @@ import { HiChatBubbleBottomCenter } from "react-icons/hi2";
 const Contact = () => {
   return (
     <section className="co-wrapper">
-      <div className="paddings innerWidth flexCenter c-container">
+      <div className="flexCol paddings innerWidth c-container">
         <div className="flexColStart c-left">
           <span className="orangeText">Our contacts</span>
           <span className="primaryText">Easy to contact us</span>
@@ -16,7 +16,7 @@ const Contact = () => {
             we believe a good blace place to live can make your life better
           </span>
           <div className="flexStart contactModes">
-            <div className="flexColStart row">
+            <div className="flexColCenter row">
               {/* first mode */}
               <div className="flexColCenter mode">
                 <div className="flexStart">
@@ -45,7 +45,7 @@ const Contact = () => {
               </div>
             </div>
             {/* third mode */}
-            <div className="flexColStart row">
+            <div className="flexColCenter row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">

@@ -82,7 +82,17 @@
     background-color: cornflowerblue;
 }
 
-@media (max-width: 648) {
+@media (max-width: 648px) {
+    .r-head {
+        align-items: center;
+    }
+
+    #r-buttons {
+        position: initial;
+    }
+}
+
+@media (max-width: 1024px) {
     .r-head {
         align-items: center;
     }

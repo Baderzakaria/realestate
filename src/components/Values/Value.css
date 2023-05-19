@@ -53,20 +53,33 @@
     font-size: 1.1rem;
 }
 
-@media (nax-width: 1024px) {
+@media (max-width: 1024px) {
     .v-container {
         flex-direction: column;
     }
 
-    @media (max-width:768) {
-        .accordionButton .primaryText {
-            font-size: 0.8px;
-        }
+}
 
-        .v-container {
-            flex-direction: column;
-        }
+@media (max-width:768px) {
+
+    .v-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
+
+    .orangeText {
+        font-size: 2rem;
+    }
+
+    .v-container {
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
 
 }
